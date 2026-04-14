@@ -81,3 +81,15 @@ This project is published under [MIT License][license].
 [lib]: https://github.com/cotes2020/chirpy-static-assets
 [vscode]: https://code.visualstudio.com/
 [jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+
+
+# morric run jeklly
+
+## 使用 RVM 多版本管理 查看本地的ruby 版本
+rvm list 
+
+## 使用指定版本ruby
+rvm use 3.3.0
+
+## 启动 jeklly 本地预览 cd 当前目录
+bundle exec jekyll serve

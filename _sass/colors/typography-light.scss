@@ -38,11 +38,11 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
+  --site-title-color: rgb(255, 255, 255);
+  --site-subtitle-color: #ffffff;
+  --sidebar-bg: radial-gradient( circle, rgb(91, 79, 255) 0%, rgb(33, 27, 104) 100%);
   --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
+  --sidebar-muted-color: #ffffff;
   --sidebar-active-color: #1d1d1d;
   --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
   --sidebar-btn-bg: white;
