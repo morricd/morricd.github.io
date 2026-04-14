@@ -75,7 +75,7 @@ SOA 与微服务在思想上有交集，但侧重点不同：
 
 **熔断**：当被调用方出现异常时，主动断开调用链路，保护自身不被拖垮，同时给下游恢复时间。
 
-![微服务核心组件](/assets/images/2019/2019051504.png)
+![微服务核心组件](/assets/images/2019/2019051504.jpeg)
 
 ### 常见微服务框架
 
@@ -87,7 +87,7 @@ SOA 与微服务在思想上有交集，但侧重点不同：
 - 通信方式：RPC
 - 注册中心：ZooKeeper / Redis
 - 配置中心：Diamond
-- 官网：[dubbo.apache.org](http://dubbo.apache.org)
+- 官网：[dubbo.apache.org](https://dubbo.apache.org)
 
 **Spring Cloud**（全家桶，易于集成第三方组件）
 - 通信方式：HTTP RESTful
@@ -96,9 +96,9 @@ SOA 与微服务在思想上有交集，但侧重点不同：
 - 熔断：Hystrix
 - 网关：Zuul
 - 链路追踪：Sleuth + Zipkin
-- 官网：[projects.spring.io/spring-cloud](http://projects.spring.io/spring-cloud/)
+- 官网：[spring.io/projects/spring-cloud](https://spring.io/projects/spring-cloud/)
 
-![常见微服务框架对比](/assets/images/2019/2019051505.png)
+![常见微服务框架对比](/assets/images/2019/2019051505.jpg)
 
 ## 实战：微服务电商项目基础模块设计
 
